@@ -15,3 +15,4 @@
 *.aliases
 *.lvlps
 .cache/
+/KNRBasic_Car/Basic_car/*.aliases
