@@ -242,6 +242,7 @@ AddOutputFilter chunkFilter
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="risingEdgeDetect (SubVI).vi" Type="VI" URL="../risingEdgeDetect (SubVI).vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../3in1/KNRSegway/StepperSegway/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Clock Settings.vi"/>
