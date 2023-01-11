@@ -1,0 +1,9 @@
+[KNR]
+KNR = "172.22.11.2"
+
+[My Computer]
+My Computer = "192.168.245.1"
+
+[myRIO_ReMiSYS_100]
+myRIO_ReMiSYS_100 = "0.0.0.0"
+
