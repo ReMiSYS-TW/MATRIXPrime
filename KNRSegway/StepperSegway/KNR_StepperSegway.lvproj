@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{3EC2E334-677C-49D9-8765-09F2681842F5}" Type="Ref">/KNR/KNRm_ReMi_OS6_436Motor.lvlibp/BNO055_KNRm_ReMi.lvlib/Eular</Property>
