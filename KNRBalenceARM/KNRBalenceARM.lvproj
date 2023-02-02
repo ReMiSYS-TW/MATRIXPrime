@@ -114,6 +114,112 @@ AddOutputFilter chunkFilter
 		<Item Name="KNRBalenceARM" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="KNRm_ReMi_OS6_436Motor.lvlibp" Type="LVLibp" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp">
+			<Item Name="Action" Type="Folder">
+				<Item Name="GyroCalibrate.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Action/GyroCalibrate.vi"/>
+				<Item Name="RobotMove.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Action/RobotMove.vi"/>
+				<Item Name="SensorCalibrate.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Action/SensorCalibrate.vi"/>
+				<Item Name="SlideMove.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Action/SlideMove.vi"/>
+				<Item Name="SlideReset.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Action/SlideReset.vi"/>
+			</Item>
+			<Item Name="Example" Type="Folder">
+				<Item Name="3MotorPWMTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/3MotorPWMTest.vi"/>
+				<Item Name="3MotorVelTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/3MotorVelTest.vi"/>
+				<Item Name="4thMotorLiftTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/4thMotorLiftTest.vi"/>
+				<Item Name="4thMotorVelTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/4thMotorVelTest.vi"/>
+				<Item Name="KSC_Temp.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KSC_Temp.vi"/>
+				<Item Name="SensorTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/SensorTest.vi"/>
+				<Item Name="ServoTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/ServoTest.vi"/>
+				<Item Name="TETRIX_ServoControllerTest.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/TETRIX_ServoControllerTest.vi"/>
+			</Item>
+			<Item Name="IO" Type="Folder">
+				<Item Name="LowLevel" Type="Folder">
+					<Item Name="Math" Type="Folder">
+						<Item Name="blinkState.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/Math/blinkState.vi"/>
+						<Item Name="FquencyToTick.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/Math/FquencyToTick.vi"/>
+					</Item>
+					<Item Name="DCextIOBReadPulseCount.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/DCextIOBReadPulseCount.vi"/>
+					<Item Name="IO_Channel_AO.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IO_Channel_AO.ctl"/>
+					<Item Name="IO_Channel_DIO.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IO_Channel_DIO.ctl"/>
+					<Item Name="IO_Channel_Motor.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IO_Channel_Motor.ctl"/>
+					<Item Name="IO_Channel_PulseDIR.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IO_Channel_PulseDIR.ctl"/>
+					<Item Name="IO_Channel_PWM.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IO_Channel_PWM.ctl"/>
+					<Item Name="IO_Channel_RC.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IO_Channel_RC.ctl"/>
+					<Item Name="IOSETChannel.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IOSETChannel.ctl"/>
+					<Item Name="PWM.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/PWM.vi"/>
+				</Item>
+				<Item Name="Analog_Output.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/Analog_Output.vi"/>
+				<Item Name="IOSET.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IO/LowLevel/IOSET.vi"/>
+			</Item>
+			<Item Name="Math" Type="Folder">
+				<Item Name="Gyro_targer.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Gyro_targer.vi"/>
+				<Item Name="IR-USMath.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/IR-USMath.vi"/>
+				<Item Name="sensor_SlowlyAccelerata.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/sensor_SlowlyAccelerata.vi"/>
+				<Item Name="SVnAccToVoutT3.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/SVnAccToVoutT3.vi"/>
+				<Item Name="XYTurnToSpeedTar.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/XYTurnToSpeedTar.vi"/>
+			</Item>
+			<Item Name="MotorControl" Type="Folder">
+				<Item Name="TETRIX" Type="Folder">
+					<Item Name="TETRIX_Enable_Servo_Controller_KNRm.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/TETRIX_Enable_Servo_Controller_KNRm.vi"/>
+					<Item Name="TETRIX_Read_Controller_ID_KNRm.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/TETRIX_Read_Controller_ID_KNRm.vi"/>
+					<Item Name="TETRIX_Set_Servo_Position(s)_KNRm.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/TETRIX_Set_Servo_Position(s)_KNRm.vi"/>
+					<Item Name="TETRIX_Set_Servo_Speed_KNRm.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/TETRIX_Set_Servo_Speed_KNRm.vi"/>
+				</Item>
+				<Item Name="DCextIOBStepperMotorPulseCtrl.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/DCextIOBStepperMotorPulseCtrl.vi"/>
+				<Item Name="moveServo.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/moveServo.vi"/>
+				<Item Name="ServoPower.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/ServoPower.vi"/>
+				<Item Name="SystemDrive3Motor.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/SystemDrive3Motor.vi"/>
+				<Item Name="SystemDrive3PWM.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/SystemDrive3PWM.vi"/>
+				<Item Name="SystemDrive4PWM.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/SystemDrive4PWM.vi"/>
+				<Item Name="SystemDrive4thMotor.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/SystemDrive4thMotor.vi"/>
+				<Item Name="SystemDrive4thPWM.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/MotorControl/SystemDrive4thPWM.vi"/>
+			</Item>
+			<Item Name="Sensor" Type="Folder">
+				<Item Name="LowLevel" Type="Folder">
+					<Item Name="AI_Chanel.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/LowLevel/AI_Chanel.ctl"/>
+					<Item Name="ReadAI (Array).vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/LowLevel/ReadAI (Array).vi"/>
+					<Item Name="ReadAI (Single).vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/LowLevel/ReadAI (Single).vi"/>
+				</Item>
+				<Item Name="KNRm_i2CLib.lvlib" Type="Library" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/BNO055_KNRmLvlib/KNRm_i2CLib.lvlib"/>
+				<Item Name="LimitBtn.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/LimitBtn.vi"/>
+				<Item Name="ReadBattery.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/ReadBattery.vi"/>
+				<Item Name="ReadEncoder.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/ReadEncoder.vi"/>
+				<Item Name="ReadIR.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/ReadIR.vi"/>
+				<Item Name="ReadQTR.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/ReadQTR.vi"/>
+				<Item Name="ReadUltrasonic.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/ReadUltrasonic.vi"/>
+				<Item Name="ReMiPSP.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Sensor/ReMiPSP.vi"/>
+			</Item>
+			<Item Name="System" Type="Folder">
+				<Item Name="KNRmBtn.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/System/LowLevel/KNRmBtn.vi"/>
+				<Item Name="KNRmClose.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/System/KNRmClose.vi"/>
+				<Item Name="KNRmLED.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/System/LowLevel/KNRmLED.vi"/>
+				<Item Name="KNRmSmartOpen.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/System/LowLevel/KNRmSmartOpen.vi"/>
+			</Item>
+			<Item Name="BNO055_KNRm_ReMi.lvlib" Type="Library" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/BNO055_KNRm_ReMi.lvlib"/>
+			<Item Name="Demo.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Demo.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="I2C.lvlib" Type="Library" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/myRIO/Instrument Drivers/Onboard IO/I2C/I2C.lvlib"/>
+			<Item Name="NI_AALBase.lvlib" Type="Library" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Analysis/NI_AALBase.lvlib"/>
+			<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/ptbypt/NI_PtbyPt.lvlib"/>
+			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+			<Item Name="niLvFpga_Open_myRIO-1950.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/FPGAPlugInAG/myRIO-1950/niLvFpga_Open_myRIO-1950.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/userDefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
+			<Item Name="SimpleXYZMotorcSpeedCal.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/KNRm_ReMi_Toolkit/Action/LowLevel/SimpleXYZMotorcSpeedCal.vi"/>
+			<Item Name="subTimeDelay.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+			<Item Name="whitespace.ctl" Type="VI" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../KNRBasic_Car/Basic_car/KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
